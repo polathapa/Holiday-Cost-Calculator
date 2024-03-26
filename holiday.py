@@ -34,8 +34,8 @@ city_flight_prices = {
 
 # Get user inputs
 city_flight = input("Enter the city you will be flying to (New York, Paris, Tokyo, Sydney, Prague, Warsaw, Toronto, Seoul): ")
-num_nights = input("Enter the number of nights you will be staying at a hotel: ")
-rental_days = input("Enter the number of days for which you will be hiring a car: ")
+num_nights = int(input("Enter the number of nights you will be staying at a hotel: "))
+rental_days = int(input("Enter the number of days for which you will be hiring a car: "))
 
 # Calculate costs
 hotel_cost_total = calculate_hotel_cost(num_nights)
